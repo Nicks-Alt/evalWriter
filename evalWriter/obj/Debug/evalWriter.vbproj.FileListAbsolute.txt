@@ -1,0 +1,13 @@
+D:\Programming\evalWriter\evalWriter\bin\Debug\evalWriter.exe.config
+D:\Programming\evalWriter\evalWriter\bin\Debug\evalWriter.exe
+D:\Programming\evalWriter\evalWriter\bin\Debug\evalWriter.pdb
+D:\Programming\evalWriter\evalWriter\bin\Debug\evalWriter.xml
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.vbprojAssemblyReference.cache
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.Resources.resources
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.vbproj.GenerateResource.cache
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.vbproj.CoreCompileInputs.cache
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.exe
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.xml
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.pdb
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.frmEvalWriter.resources
+D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.SplashScreen1.resources
