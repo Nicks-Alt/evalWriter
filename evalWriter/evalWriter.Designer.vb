@@ -77,7 +77,7 @@ Partial Class frmEvalWriter
         Me.radPAdmin.Size = New System.Drawing.Size(74, 20)
         Me.radPAdmin.TabIndex = 1
         Me.radPAdmin.TabStop = True
-        Me.radPAdmin.Text = "P-Admin"
+        Me.radPAdmin.Text = "P-Admin+"
         Me.radPAdmin.UseVisualStyleBackColor = True
         '
         'radTAdmin

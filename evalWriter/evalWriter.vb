@@ -95,11 +95,11 @@ Public Class frmEvalWriter
         PrintLine(FileNum, strInput(0) & " " & strInput(1) & " " & strInput(2) & " " & strInput(3) & " " & strInput(4) & " " & strInput(5))
         Select Case MsgBox("Would you like to copy that eval?", vbYesNo, "Copy?")
             Case MsgBoxResult.Yes
-                'If P-admin
+                'If P-admin+
                 If radPAdmin.Checked Then
                     'Copy to clipboard
                     Clipboard.SetText(strPersonName & " - " & strPersonSteamID & Environment.NewLine & strInput(0) & " " & strInput(1) & " " & strInput(2) & " " & strInput(3) & " " & strInput(4) & " " & strInput(5))
-                    'Suggest opening P-Admin chat
+                    'Suggest opening P-Admin+ chat
                     Select Case MsgBox("Would you like to open the P-Admin chat?", vbYesNo, "Open chat?")
                         Case MsgBoxResult.Yes
                             Process.Start("https://forum.superiorservers.co/messenger/71/?page=9999")
