@@ -11,16 +11,3 @@ D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.xml
 D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.pdb
 D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.frmEvalWriter.resources
 D:\Programming\evalWriter\evalWriter\obj\Debug\evalWriter.SplashScreen1.resources
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\bin\Debug\evalWriter.exe.config
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\bin\Debug\evalWriter.exe
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\bin\Debug\evalWriter.pdb
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\bin\Debug\evalWriter.xml
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.vbprojAssemblyReference.cache
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.frmEvalWriter.resources
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.Resources.resources
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.SplashScreen1.resources
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.vbproj.GenerateResource.cache
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.vbproj.CoreCompileInputs.cache
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.exe
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.xml
-C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.pdb
