@@ -30,7 +30,11 @@ Public Class frmEvalWriter
         Dim trimmedFileName As String
         trimmedFileName = strPersonSteamID.Substring(pos, strPersonSteamID.Length - pos)
         Dim steamid64 As String
-        steamid64 = ((CInt(trimmedFileName) * 2) + 76561197960265728).ToString
+        If strPersonSteamID.Substring(9, 1) = "0" Then
+            steamid64 = ((CInt(trimmedFileName) * 2) + 76561197960265728).ToString
+        Else
+            steamid64 = ((CInt(trimmedFileName) * 2) + 76561197960265729).ToString
+        End If
         FileName = strPersonName & " - " & steamid64
         FileOpen(FileNum, My.Computer.FileSystem.CurrentDirectory.ToString() & "\Evals\" & FileName & ".txt", OpenMode.Append) 'Creates file too if it doesn't exist
         For i = 0 To 5
