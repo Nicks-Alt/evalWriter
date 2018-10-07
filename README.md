@@ -21,3 +21,4 @@ For the lastest release download see: https://github.com/nicksuperiorservers/eva
 * 10/7/18 2:33 PM - Cleaned up UI
 * 10/7/18 3:30 PM - Moved project to github thanks to The Janitor
 * 10/7/18 4:02 PM - Fixed issue with steamids
+* 10/7/18 5:17 PM - Added license to program & changed p-admin to p-admin+ (Sunn Trueheart)
