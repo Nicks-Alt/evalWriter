@@ -11,7 +11,7 @@ Public Class frmEvalWriter
         End If
     End Sub
     '
-    'Clock Handeler
+    'Clock Handler
     '
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         lblProgramLocation.Text = My.Computer.FileSystem.CurrentDirectory.ToString()
