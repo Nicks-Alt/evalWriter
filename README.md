@@ -22,3 +22,4 @@ For the lastest release download see: https://github.com/nicksuperiorservers/eva
 * 10/7/18 3:30 PM - Moved project to github thanks to The Janitor
 * 10/7/18 4:02 PM - Fixed issue with steamids
 * 10/7/18 5:17 PM - Added license to program & changed p-admin to p-admin+ (Sunn Trueheart)
+* 10/29/18 8:44 PM - Added SSRP Compability
