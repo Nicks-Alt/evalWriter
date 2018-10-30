@@ -24,3 +24,7 @@ C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.vbproj.C
 C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.exe
 C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.xml
 C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.pdb
+C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\bin\Debug\evalWriter.exe.manifest
+C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\bin\Debug\evalWriter.application
+C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.exe.manifest
+C:\Users\Nick\Desktop\Github\evalWriter\evalWriter\obj\Debug\evalWriter.application

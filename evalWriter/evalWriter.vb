@@ -217,7 +217,7 @@ Public Class frmEvalWriter
                 'Suggest opening P-Admin+ chat
                 Select Case MsgBox("Would you like to open the P-Admin chat?", vbYesNo, "Open chat?")
                     Case MsgBoxResult.Yes
-                        Process.Start("https://forum.superiorservers.co/messenger/3432/?page=9999")
+                        Process.Start("https://forum.superiorservers.co/messenger/36/?page=9999")
                 End Select
                 'If T-admin
             ElseIf radTAdmin.Checked Then
