@@ -36,8 +36,12 @@ Partial Class frmEvalWriter
         Me.ReadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblTime = New System.Windows.Forms.Label()
+        Me.grpServer = New System.Windows.Forms.GroupBox()
+        Me.radDarkRP = New System.Windows.Forms.RadioButton()
+        Me.radSSRP = New System.Windows.Forms.RadioButton()
         Me.grpRank.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
+        Me.grpServer.SuspendLayout()
         Me.SuspendLayout()
         '
         'Timer1
@@ -48,7 +52,7 @@ Partial Class frmEvalWriter
         'btnBegin
         '
         Me.btnBegin.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.btnBegin.Location = New System.Drawing.Point(47, 147)
+        Me.btnBegin.Location = New System.Drawing.Point(180, 173)
         Me.btnBegin.Name = "btnBegin"
         Me.btnBegin.Size = New System.Drawing.Size(75, 23)
         Me.btnBegin.TabIndex = 1
@@ -74,7 +78,7 @@ Partial Class frmEvalWriter
         Me.radPAdmin.AutoSize = True
         Me.radPAdmin.Location = New System.Drawing.Point(7, 52)
         Me.radPAdmin.Name = "radPAdmin"
-        Me.radPAdmin.Size = New System.Drawing.Size(74, 20)
+        Me.radPAdmin.Size = New System.Drawing.Size(83, 20)
         Me.radPAdmin.TabIndex = 1
         Me.radPAdmin.TabStop = True
         Me.radPAdmin.Text = "P-Admin+"
@@ -144,7 +148,7 @@ Partial Class frmEvalWriter
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("MV Boli", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label2.Location = New System.Drawing.Point(157, 24)
+        Me.Label2.Location = New System.Drawing.Point(42, 24)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(123, 28)
         Me.Label2.TabIndex = 9
@@ -155,11 +159,44 @@ Partial Class frmEvalWriter
         Me.lblTime.AutoSize = True
         Me.lblTime.Font = New System.Drawing.Font("MV Boli", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTime.ForeColor = System.Drawing.SystemColors.Control
-        Me.lblTime.Location = New System.Drawing.Point(289, 103)
+        Me.lblTime.Location = New System.Drawing.Point(275, 29)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New System.Drawing.Size(118, 21)
         Me.lblTime.TabIndex = 10
         Me.lblTime.Text = "XX:XX:XX XX"
+        '
+        'grpServer
+        '
+        Me.grpServer.Controls.Add(Me.radSSRP)
+        Me.grpServer.Controls.Add(Me.radDarkRP)
+        Me.grpServer.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.grpServer.Location = New System.Drawing.Point(287, 60)
+        Me.grpServer.Name = "grpServer"
+        Me.grpServer.Size = New System.Drawing.Size(106, 81)
+        Me.grpServer.TabIndex = 11
+        Me.grpServer.TabStop = False
+        Me.grpServer.Text = "Your Server"
+        '
+        'radDarkRP
+        '
+        Me.radDarkRP.AutoSize = True
+        Me.radDarkRP.Checked = True
+        Me.radDarkRP.Location = New System.Drawing.Point(6, 28)
+        Me.radDarkRP.Name = "radDarkRP"
+        Me.radDarkRP.Size = New System.Drawing.Size(63, 17)
+        Me.radDarkRP.TabIndex = 12
+        Me.radDarkRP.Text = "DarkRP"
+        Me.radDarkRP.UseVisualStyleBackColor = True
+        '
+        'radSSRP
+        '
+        Me.radSSRP.AutoSize = True
+        Me.radSSRP.Location = New System.Drawing.Point(6, 52)
+        Me.radSSRP.Name = "radSSRP"
+        Me.radSSRP.Size = New System.Drawing.Size(54, 17)
+        Me.radSSRP.TabIndex = 12
+        Me.radSSRP.Text = "SSRP"
+        Me.radSSRP.UseVisualStyleBackColor = True
         '
         'frmEvalWriter
         '
@@ -170,6 +207,7 @@ Partial Class frmEvalWriter
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(435, 226)
+        Me.Controls.Add(Me.grpServer)
         Me.Controls.Add(Me.lblTime)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblProgramLocation)
@@ -185,6 +223,8 @@ Partial Class frmEvalWriter
         Me.grpRank.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.grpServer.ResumeLayout(False)
+        Me.grpServer.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -202,4 +242,7 @@ Partial Class frmEvalWriter
     Friend WithEvents ReadToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label2 As Label
     Friend WithEvents lblTime As Label
+    Friend WithEvents grpServer As GroupBox
+    Friend WithEvents radSSRP As RadioButton
+    Friend WithEvents radDarkRP As RadioButton
 End Class
