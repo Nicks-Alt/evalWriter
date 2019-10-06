@@ -68,9 +68,12 @@ Public Class frmEvalWriter
                             End Select
                         ElseIf strYourSteamID.Contains(":") AndAlso strYourSteamID.Substring(0, 8) = "STEAM_0:" Then
                             blnGoodSteamID = True
-                        Else
-                            MsgBox("Invalid SteamID. Try again.", vbExclamation, "Yikes!")
-                            blnGoodSteamID = False
+                        ElseIf strYourSteamID.StartsWith("7") AndAlso strYourSteamID.Length = 76561197960265728.ToString.Length Then
+                            If CLng(strYourSteamID) Mod 2 = 0 Then
+                                strYourSteamID = "STEAM_0:0:" + ((CLng(strYourSteamID) - 76561197960265728) \ 2).ToString
+                            Else
+                                strYourSteamID = "STEAM_0:1:" + ((CLng(strYourSteamID) - 76561197960265728) \ 2).ToString
+                            End If
                         End If
                     Catch ex As Exception
                         MsgBox("Invalid SteamID. Try again.", vbExclamation, "Yikes!")
@@ -117,11 +120,19 @@ Public Class frmEvalWriter
                     pos = InStrRev(strPersonSteamID, ":")
                 End If
                 trimmedFileName = strPersonSteamID.Substring(pos, strPersonSteamID.Length - pos)
-                If strPersonSteamID.Substring(8, 1) = "0" Then
+                If strPersonSteamID.StartsWith("STEAM_0:0:") Then
                     steamid64 = ((CInt(trimmedFileName) * 2) + 76561197960265728).ToString
                     blnGoodSteamID = True
-                ElseIf strPersonSteamID.Substring(8, 1) = "1" Then
+                ElseIf strPersonSteamID.StartsWith("STEAM_0:1:") Then
                     steamid64 = ((CInt(trimmedFileName) * 2) + 76561197960265729).ToString
+                    blnGoodSteamID = True
+                ElseIf strPersonSteamID.StartsWith("7") AndAlso strPersonSteamID.Length = 76561197960265728.ToString.Length Then
+                    steamid64 = strPersonSteamID
+                    If CLng(strPersonSteamID) Mod 2 = 0 Then
+                        strPersonSteamID = "STEAM_0:0:" + ((CLng(strPersonSteamID) - 76561197960265728) \ 2).ToString
+                    Else
+                        strPersonSteamID = "STEAM_0:1:" + ((CLng(strPersonSteamID) - 76561197960265728) \ 2).ToString
+                    End If
                     blnGoodSteamID = True
                 End If
             Catch ex As Exception

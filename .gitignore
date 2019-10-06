@@ -34,3 +34,8 @@ evalWriter/evalWriter\.vbproj\.user
 evalWriter/obj/Debug/evalWriter\.application
 
 evalWriter/obj/Debug/evalWriter\.exe\.manifest
+.vs/evalWriter/v16/.suo
+*.txt
+*.ide
+*.lock
+*.cache
